@@ -94,3 +94,24 @@ footer {
     }
 
 }
+
+@media ( max-width: 360px) {
+
+    /* Overall */
+    body {
+        background-color: black;
+        background-image: url("images/bg_cross.jpg");
+        background-position: 75%;
+        background-attachment: fixed;
+    }
+
+    /* Mid section */
+
+    .mid a {
+        width: 100%;
+        padding: 6px 25px;
+        margin:  15px auto;
+        font-size: 10px;
+    }
+
+}
