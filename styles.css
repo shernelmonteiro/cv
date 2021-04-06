@@ -1,0 +1,96 @@
+/* Overall */
+
+body {
+    background-color: black;
+    background-image: url("images/bg_cross.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+
+}
+
+/* Header Top */
+.header h2 {
+    color: white;
+    position: relative;
+    text-align: center;
+    top: 70px;
+    font-size: 80px;
+    font-family: 'Satisfy', cursive;
+    text-decoration: underline;
+    padding-bottom: 20px;
+}
+
+
+
+/* Mid_Section */
+
+.mid {
+    position: relative;
+    width: 50%;
+    height: 50%;
+    margin: auto;
+    top: 100px;
+    padding: 50px 50px;
+
+}
+
+.mid a {
+    width: 40%;
+    text-decoration: none;
+    color: white;
+    display: block;
+    text-align: center;
+    padding: 5px 25px;
+    margin:  25px auto;
+    border-width: 2px;
+    border: rgb(255, 255, 255);
+    border-style: solid;
+    font-family: 'Crimson Pro', serif;
+    font-size: 28px;
+}
+
+.mid a:hover{
+    background-color: rgba(255, 255, 255, 0.986);
+    color: black;
+
+}
+
+
+/* Footer 3rd section */
+
+footer {
+    position: fixed;
+    padding: 10px 10px 0px 10px;
+    bottom: 0;
+    width: 100%;
+    /* Height of the footer*/ 
+    height: 40px;
+    color: white;
+    text-align: center;
+}
+
+
+/* FOR MOBILE VIEW */
+
+
+@media ( max-width: 500px) {
+
+    /* Overall */
+    body {
+        background-color: black;
+        background-image: url("images/bg_cross.jpg");
+        background-position: 75%;
+        background-attachment: fixed;
+    }
+
+    /* Mid section */
+
+    .mid a {
+        width: 100%;
+        padding: 6px 25px;
+        margin:  15px auto;
+        font-size: 17px;
+    }
+
+}
