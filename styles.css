@@ -74,7 +74,7 @@ footer {
 /* FOR MOBILE VIEW */
 
 
-@media ( max-width: 500px) {
+@media ( max-width: 400px) {
 
     /* Overall */
     body {
