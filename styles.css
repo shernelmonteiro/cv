@@ -1,0 +1,206 @@
+/* MAIN LANDING PAGE */
+
+/* Overall */
+
+body {
+    background-color: black;
+    background-image: url("images/bg_cross.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+
+}
+
+.container {
+    width: 100%;
+    height: 100%;
+}
+
+/* Header section */
+.header {
+    width: 50%;
+    height: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 5%;
+}
+
+.header h2 {
+    color: white;
+    font-family: 'Satisfy', cursive;
+    text-align: center;
+    font-size: 600%;
+}
+
+/* Mid section */
+
+.mid {
+
+    width: 20%;
+    height: 100%;
+    margin: 6% auto 2% auto;
+
+}
+
+.mid a {
+    display: block;
+    text-decoration: none;
+    text-align: center;
+    padding: 5%;
+    border: white;
+    border-style: solid;
+    margin-bottom: 2%;
+    color: white;
+    font-family: 'Crimson Pro', serif;
+    font-size: 120%;
+}
+
+.mid a:hover {
+    background-color: white;
+    color: black;
+    cursor: pointer;
+}
+
+/* Footer  */
+footer p {
+    padding: 10px 10px 0px 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 5%;
+    color: white;
+    text-align: center;
+}
+
+
+
+@media ( max-width: 1440px) {
+
+    body {
+        background-color: black;
+        background-image: url("images/bg_cross.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-attachment: fixed;
+        background-position: center;
+        background-position-x: 80%;
+    
+    }
+
+    
+    .header h2 {
+        color: white;
+        font-family: 'Satisfy', cursive;
+        text-align: center;
+        margin-top: 20%;
+        font-size: 500%;
+    }
+    
+    /* Mid section */
+    
+    .mid {
+    
+        width: 40%;
+        height: 100%;
+        margin: 10% auto 2% auto;
+    
+    }
+    
+    .mid a {
+        display: block;
+        text-decoration: none;
+        text-align: center;
+        padding: 5%;
+        border: white;
+        border-style: solid;
+        margin-bottom: 10%;
+        color: white;
+        font-family: 'Crimson Pro', serif;
+        font-size: 100%;
+    }
+    
+    .mid a:hover {
+        background-color: white;
+        color: black;
+        cursor: pointer;
+    }
+    
+    /* Footer  */
+    footer p {
+        position: fixed;
+        padding: 10px 10px 0px 10px;
+        bottom: 0;
+        width: 100%;
+        height: 5%;
+        color: white;
+        text-align: center;
+        font-size: 100%;
+    }
+
+}
+
+
+@media ( max-width: 500px) {
+
+    body {
+        background-color: black;
+        background-image: url("images/bg_cross.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-attachment: fixed;
+        background-position: center;
+        background-position-x: 80%;
+    
+    }
+
+    
+    .header h2 {
+        color: white;
+        font-family: 'Satisfy', cursive;
+        text-align: center;
+        margin-top: 20%;
+        font-size: 400%;
+    }
+    
+    /* Mid section */
+    
+    .mid {
+    
+        width: 40%;
+        height: 100%;
+        margin: 10% auto 2% auto;
+    
+    }
+    
+    .mid a {
+        display: block;
+        text-decoration: none;
+        text-align: center;
+        padding: 5%;
+        border: white;
+        border-style: solid;
+        margin-bottom: 10%;
+        color: white;
+        font-family: 'Crimson Pro', serif;
+        font-size: 100%;
+    }
+    
+    .mid a:hover {
+        background-color: white;
+        color: black;
+        cursor: pointer;
+    }
+    
+    /* Footer  */
+    footer p {
+        position: fixed;
+        padding: 10px 10px 0px 10px;
+        bottom: 0;
+        width: 100%;
+        height: 5%;
+        color: white;
+        text-align: center;
+        font-size: 70%;
+    }
+
+}
